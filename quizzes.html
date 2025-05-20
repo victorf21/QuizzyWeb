@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzy</title>
+    <link rel="stylesheet" href="/styles/quizzes.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Barra lateral -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>TEMAS</h2>
+                <div class="search-box">
+                    <input type="text" placeholder="BUSCAR">
+                    <i class="search-icon"></i>
+                </div>
+            </div>
+  
+            
+            <div class="sidebar-section">
+                <h3>RECOMENDADOS</h3>
+                <ul class="recommended-list">
+                    <li>Tema 1</li>
+                    <li>Tema 2</li>
+                    <li>Tema 3</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Contenido principal -->
+        <main class="main-content">
+            <header class="content-header">
+                <h1>Quizzes Disponibles</h1>
+            </header>
+            
+            <div class="quizzes-container" id="quizzes-list">
+                <!-- Los quizzes se cargarán aquí dinámicamente -->
+                <div class="loading-message">Cargando quizzes...</div>
+            </div>
+        </main>
+    </div>
+    <script src="scripts/cookie.js"></script>
+    <script src="scripts/quizzes.js"></script>
+</body>
+</html>

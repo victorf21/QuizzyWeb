@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quizzy - Temas</title>
+    <link rel="stylesheet" href="/styles/quizzes.css" />
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Quizzes</h2>
+                <div class="search-box">
+                    <input type="text" placeholder="BUSCAR" />
+                    <i class="search-icon"></i>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="content-header">
+                <h1>Quizzes Disponibles</h1>
+            </header>
+
+            <div class="quizzes-container" id="quizzes-list">
+                <div class="loading-message">Cargando quizzes...</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="scripts/cookie.js"></script>
+    <script src="scripts/quizztema.js"></script>
+</body>
+</html>
